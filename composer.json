@@ -1,0 +1,26 @@
+{
+    "name": "zecadev/ecommerce",
+    "description": "Sistema de login com verificação de email",
+    "authors": [
+        {
+            "name": "José Carlos Omena Alves",
+            "email": "jomenaalves@gmail.com"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\" : "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "league/plates": "^3.4",
+        "coffeecode/router": "^1.0",
+        "phpmailer/phpmailer": "^6.4"
+    }    
+}

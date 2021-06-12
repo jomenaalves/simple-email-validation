@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login{
+    margin-top: 50px;
+    width: 300px;
+}
+.photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.logo{
+    font-size: 35px;
+    color: #fff;
+    font-family: 'Righteous';
+    letter-spacing: 1px;
+}
+.photo p{
+    margin: 16px;
+    font-family: 'Lato';
+    font-size: 23px;
+    color: #fff;
+    font-weight: 100;
+}
+.login main{
+    background-color: #161B22;
+    border: 1px solid #21262D;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 2px;
+    color: #fff;
+    font-family: 'Lato';
+    font-weight: 100;
+    font-size: 15px;
+}
+.login input{
+    margin-top: 5px;
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #21262d;
+    background-color: #0d1117;
+}
+.login input:focus{
+    
+    outline-color: #586aff;
+    outline-style: groove;
+}
+.login p{
+    display: block;
+    padding: 2px 0;
+}
+.textAndForgotPass{
+    
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.textAndForgotPass a{
+    color: #586aff;
+    text-decoration: none;
+}
+
+input{
+    color: #fff!important;
+}
+button{
+    margin-top: 15px;
+    width: 100%;
+    background-color: #238636;
+    border: 1px solid #2ea043;
+    color: #fff;
+
+    font-family: 'Lato';
+    display: block;
+    padding: 7px;
+}
+
+.new{
+    padding: 20px 10px;
+
+    border: 1px solid #ccc;
+    color: #fff;
+    text-align: center;
+
+    font-family: 'Lato';
+    margin-top: 15px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+.new a{
+    margin-left: 10px;
+    color: #566aff;
+    text-decoration: none;
+}

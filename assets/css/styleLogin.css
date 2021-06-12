@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #000;
+}
+
+.apresentation{
+    margin-top: 45px;
+    text-align: center;
+    color: #fff;
+}
+
+.apresentation p{
+    font-family: 'Lato';
+    font-weight: 100;
+    letter-spacing: 1.5px;
+}
+.apresentation h1{
+    font-family: 'Lato';
+    font-size: 35px;
+}
+.register{
+    width: 500px;
+    background-color: #161B22;
+    border: 1px solid #21262D;
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 2px;
+    color: #fff;
+    margin: 20px auto;
+    font-size: 15px;
+}
+
+.register input{
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #21262d;
+    background-color: #0d1117;
+}
+
+.register input:focus{
+    
+    outline-color: #586aff;
+    outline-style: groove;
+}
+.control{
+    margin-top: 10px;
+}
+.control p {
+    padding: 5px 0;
+    color: #fff;
+    font-family: 'Lato';
+    letter-spacing: 0.5px;
+}
+
+.control span{
+    color: rgb(190, 28, 28);
+}
+
+
+input{
+    color: #fff!important;
+}
+button{
+    margin-top: 15px;
+    width: 100%;
+    background-color: #238636;
+    border: 1px solid #2ea043;
+    color: #fff;
+
+    font-family: 'Lato';
+    cursor: pointer;
+    display: block;
+    padding: 7px;
+}
+
+.loading{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.555);
+
+    width: 100%;
+    height: 100vh;
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.dis-flex{
+    display: flex!important;
+}
+.loading .content{
+    background-color: #fff;
+
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.loading .content img{
+    max-width: 60px;
+}
+.error{
+
+    display: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    
+    width: 500px;
+    padding: 15px;
+    margin: 15px auto;
+
+    background-color: rgb(160, 13, 13);
+    color: #fff;
+    font-family: 'Lato';
+    font-weight: 300;
+}
+
+.verifyEmail{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.555);
+
+    width: 100%;
+    height: 100vh;
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.verifyEmail .content{
+    width: 500px;
+    padding: 15px 0;
+    padding-bottom: 25px;
+    background-color: #fff;   
+    border-radius: 2px;
+
+}
+.verifyEmail .content p{
+    text-align: center;
+    font-size: 25px;
+    margin-top: -30px;
+    font-family: 'Lato';
+}
+.verifyEmail .content a{
+    text-decoration: none;
+    color: #586aff;
+    text-align: center;
+    display: block;
+    font-family: 'Lato';
+}
+.verifyEmail .content img{
+    width: 150px;
+    border-radius: 100%;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 10px;
+
+}
+.verifyEmail .content span{
+    text-align: center;
+    display: block;
+    font-family: 'Lato';
+    font-weight: 300;
+    margin-top: 10px;
+}
+.numbersOfValidate{
+    width: 60%;
+    margin: 25px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.numbersOfValidate input{
+    width: 19.0%;
+    padding: 15px 20px;
+    border-radius: 5px ;
+    border: 1px solid #ccc;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000!important;
+
+}
+
+.numbersOfValidate input:focus{
+    outline-color: #5869ffbe;
+}
+.error{
+    border: 1px solid red!important;
+    background-color: rgb(175, 32, 32);
+}
+.success{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.555);
+
+    width: 100%;
+    height: 100vh;
+
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.success .content{
+    width: 400px;
+    padding: 15px 0;
+    padding-bottom: 25px;
+    background-color: #fff;   
+    border-radius: 2px;
+}
+.success .content img{
+    width: 70px;
+    margin: auto;
+    display: block;
+}
+.success .content p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 22px;
+    font-family: 'Lato';
+    font-weight: 300;
+}
+.success .content a{
+    color: #2ea043;
+    text-decoration: none;
+    margin-top: 10px;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Lato';
+    font-weight: 500;
+}
