@@ -11,7 +11,7 @@
         {
             !session_start() && session_start();
 
-            $this->conn = new \PDO("mysql:host=localhost;dbname=loginandregister", BD_USERNAME, BD_PASS);
+            $this->conn = new \PDO("mysql:host=localhost;dbname=<your bd name>", BD_USERNAME, BD_PASS);
             $this->conn->setAttribute(\PDO::ATTR_ERRMODE, \PDO::ERRMODE_EXCEPTION);
         }
 
